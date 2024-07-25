@@ -3,9 +3,9 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `Hello! I am a motivated student with a track record of academic excellence looking for part-time work to furnish skills and develop professional work experience utilizing excellent communication and time management skills. `;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I'm a motivated student with a track record of academic excellence, eager to find part-time work to enhance my skills and gain valuable professional experience. I possess excellent communication and time management skills, which I believe are crucial for any successful career. I aspire to be a full stack developer and have a solid foundation in various technologies, including React, Next.js, Python, and front-end development. I'm enthusiastic about learning and growing in a dynamic work environment and look forward to contributing my skills and passion to more open sources and projects.`;
 
 export const EXPERIENCES = [
   {

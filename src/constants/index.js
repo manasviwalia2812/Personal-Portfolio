@@ -10,67 +10,57 @@ export const ABOUT_TEXT = `I'm a motivated student with a track record of academ
 export const EXPERIENCES = [
   {
     year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    role: "Joint Head of Technical Projects",
+    company: "IEE WIE MUJ",
+    description: `Managed and updated the organization's website to ensure optimal functionality and user experience. Created and oversaw Google Forms for various organizational needs. Conducted and judged all tech-related events, such as hackathons, ensuring they were well-organized and impactful.`,
+    technologies: ["Javascript", "React.js", "Next.js", "HTML","CSS","Bootstrap"],
   },
+  
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "June 2022 - Dec 2022",
+    role: "Fundraising volunteer",
+    company: "Athma NGO",
+    description: `As part of the marketing team, raised funds for the NGO to support the planting of 1,00,000 trees by the end of the year all over India. Contributed to planning and executing fundraising campaigns, ensuring successful outcomes and impactful environmental contributions.`,
+    technologies: ["Marketing", "Promotions", "Fundraising", "Campaign Management"],
   },
 ];
 
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
+    link: "https://github.com/manasviwalia2812/Amazon-E-commerce-website.git",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional e-commerce website based on Amazon with features like product listing, shopping cart, placing order, tracking delivery",
+    technologies: ["HTML", "CSS", "Javascript", "API"],
   },
   {
-    title: "Task Management App",
+    title: "Planet Simulator",
+    link: "https://github.com/manasviwalia2812/Planet-Simulator.git",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A python script that simulates a planetary system based on real-life distances, velocity and gravity.",
+    technologies: ["Python", "Pygame"],
   },
   {
     title: "Portfolio Website",
+    link: "https://github.com/manasviwalia2812/Personal-Portfolio.git",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "A personal portfolio website showcasing projects, skills, experience and contact information.",
+    technologies: ["Javascript", "React","Tailwind", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "Traveller's website",
+    link:"https://github.com/manasviwalia2812/femmevoyage.git",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform for solo female travellers to connect with others and create and publish travel blog posts, with features like google maps, travel check-list, etc.",
+    technologies: ["HTML", "CSS", "Javascript"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "New Delhi,India",
+  email: "manasviwalia@gmail.com",
 };

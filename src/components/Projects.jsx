@@ -18,12 +18,14 @@ const Projects = () => {
               initial={{opacity:0,x:-100}}
               transition={{duration:1}}
               className="w-full lg:w-1/4">
-              <img 
-                src={project.image}
-                width={150}
-                height={150}
-                alt={project.title}
-                className="mb-6 rounded"/>
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img 
+                  src={project.image}
+                  width={150}
+                  height={150}
+                  alt={project.title}
+                  className="mb-6 rounded"/>
+              </a>
             </motion.div>
             <motion.div 
               whileInView={{opacity:1,x:0}}
@@ -38,6 +40,17 @@ const Projects = () => {
             </motion.div>
           </div>
         ))}
+        <motion.div 
+          whileInView={{opacity:1,y:0}}
+          initial={{opacity:0,y:-100}}
+          transition={{duration:1.5}}
+          className="flex items-center justify-center">
+            <a href="https://github.com/manasviwalia2812?tab=repositories" target="_blank" rel="noopener">
+             <button 
+              className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 text-white font-semibold py-2 px-4 rounded-full shadow-lg transform transition-transform hover:scale-110">See More!
+              </button>
+            </a>
+        </motion.div>
       </div>
     </div>
   );

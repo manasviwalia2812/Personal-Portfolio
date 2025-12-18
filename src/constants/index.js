@@ -5,7 +5,12 @@ import project4 from "../assets/projects/project-4.jpg";
 
 export const HERO_CONTENT = `Hello! I am a motivated student with a track record of academic excellence looking for part-time work to furnish skills and develop professional work experience utilizing excellent communication and time management skills. `;
 
-export const ABOUT_TEXT = `I'm a motivated student with a track record of academic excellence, eager to find part-time work to enhance my skills and gain valuable professional experience. I possess excellent communication and time management skills, which I believe are crucial for any successful career. I aspire to be a full stack developer and have a solid foundation in various technologies, including React, Next.js, Python, and front-end development. I'm enthusiastic about learning and growing in a dynamic work environment and look forward to contributing my skills and passion to more open sources and projects.`;
+export const ABOUT_TEXT = [
+  "I’m a motivated Computer Science student with a strong academic background and a deep interest in building impactful software. 💻✨",
+  "I enjoy working with React, Next.js, and Python 🐍, and I’m currently exploring full-stack development while strengthening my foundations in problem solving and system design. 🧠",
+  "I’m eager to grow in a dynamic environment 🌱, contribute to meaningful projects, and collaborate in open-source communities where learning never stops. 🚀"
+];
+
 
 export const EXPERIENCES = [
   {

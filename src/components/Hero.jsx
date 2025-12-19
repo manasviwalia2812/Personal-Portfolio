@@ -15,7 +15,7 @@ const fadeUp = (delay = 0) => ({
 const Hero = () => {
   return (
     <section
-      className="relative min-h-screen w-screen flex items-center justify-center bg-cover bg-center bg-no-repeat pt-24"
+      className="relative min-h-screen w-100vw flex items-center justify-center bg-cover bg-center bg-no-repeat pt-24"
       style={{ backgroundImage: `url(${bg})` }}
     >
       {/* Dark overlay for readability */}

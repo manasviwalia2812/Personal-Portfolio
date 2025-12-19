@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { PROJECTS } from "../constants/projects";
 import { motion } from "framer-motion";
 import { FaGithub, FaFileAlt, FaPenFancy } from "react-icons/fa";
+import { FaExternalLinkAlt } from "react-icons/fa";
 import Contact from "../components/Contact";
 
 /* ------------------ Animations ------------------ */
@@ -106,7 +107,22 @@ const ProjectDetail = () => {
                     hover:bg-purple-400/10 transition
                   "
                 >
-                  <FaFileAlt /> Research Paper
+                  <FaFileAlt /> Report
+                </a>
+              )}
+              {project.demo && (
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="
+                    flex items-center gap-2
+                    rounded-full border border-purple-400
+                    px-5 py-2 text-purple-300
+                    hover:bg-purple-400/10 transition
+                  "
+                >
+                  <FaExternalLinkAlt /> Demo
                 </a>
               )}
             </div>

@@ -3,37 +3,63 @@ import { Routes, Route } from "react-router-dom";
 import Hero from "./components/Hero";
 import MainLayout from "./layouts/MainLayout";
 
+import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import ProjectDetail from "./pages/ProjectDetail";
 import Experience from "./pages/Experience";
 import Blogs from "./pages/Blogs";
+import MyProfilePage from "./pages/MyProfile";
+
 import Technologies from "./components/Technologies";
 import Contact from "./components/Contact";
-import Home from "./pages/Home";
 
 function App() {
   return (
     <Routes>
 
-      {/* HOME */}
+      {/* ================= HOME ================= */}
       <Route
         path="/"
         element={
           <>
             <Hero />
-
             <MainLayout>
-              <section id="about"><Home /></section>
-              <section id="projects"><Projects /></section>
-              <section id="experience"><Experience /></section>
-              <section id="tech"><Technologies /></section>
-              <section id="contact"><Contact /></section>
+              <section id="about">
+                <Home />
+              </section>
+
+              <section id="projects">
+                <Projects />
+              </section>
+
+              <section id="experience">
+                <Experience />
+              </section>
+
+              <section id="tech">
+                <Technologies />
+              </section>
+
+              <section id="contact">
+                <Contact />
+              </section>
             </MainLayout>
           </>
         }
       />
 
-      {/* ROUTED PAGES */}
+      {/* ================= STANDALONE PAGES ================= */}
+
+      <Route
+        path="/profile"
+        element={
+          <MainLayout>
+            <MyProfilePage />
+          </MainLayout>
+        }
+      />
+
       <Route
         path="/about"
         element={
@@ -45,10 +71,10 @@ function App() {
       />
 
       <Route
-        path="/projects"
+        path="/blogs"
         element={
           <MainLayout>
-            <Projects />
+            <Blogs />
           </MainLayout>
         }
       />
@@ -62,14 +88,26 @@ function App() {
         }
       />
 
+      {/* ================= PROJECT ROUTES ================= */}
+
       <Route
-        path="/blogs"
+        path="/projects"
         element={
           <MainLayout>
-            <Blogs />
+            <Projects />
           </MainLayout>
         }
       />
+
+      <Route
+        path="/projects/:slug"
+        element={
+          <MainLayout>
+            <ProjectDetail />
+          </MainLayout>
+        }
+      />
+
     </Routes>
   );
 }

@@ -32,38 +32,40 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    slug: "ecommerce-website",
     title: "E-Commerce Website",
-    link: "https://github.com/manasviwalia2812/Amazon-E-commerce-website.git",
     image: project1,
     description:
-      "A fully functional e-commerce website based on Amazon with features like product listing, shopping cart, placing order, tracking delivery",
-    technologies: ["HTML", "CSS", "Javascript", "API"],
+      "A fully functional Amazon-style e-commerce platform with cart, orders, and delivery tracking.",
+    technologies: ["HTML", "CSS", "JavaScript", "API"],
+    github: "https://github.com/manasviwalia2812/Amazon-E-commerce-website.git",
+    blog: null,
+    paper: null,
   },
   {
+    slug: "planet-simulator",
     title: "Planet Simulator",
-    link: "https://github.com/manasviwalia2812/Planet-Simulator.git",
     image: project2,
     description:
-      "A python script that simulates a planetary system based on real-life distances, velocity and gravity.",
+      "A Python-based planetary motion simulator using physics-based gravity models.",
     technologies: ["Python", "Pygame"],
+    github: "https://github.com/manasviwalia2812/Planet-Simulator.git",
+    blog: null,
+    paper: null,
   },
   {
-    title: "Portfolio Website",
-    link: "https://github.com/manasviwalia2812/Personal-Portfolio.git",
+    slug: "research-project",
+    title: "ML Research Project",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, experience and contact information.",
-    technologies: ["Javascript", "React","Tailwind", "Bootstrap"],
-  },
-  {
-    title: "Traveller's website",
-    link:"https://github.com/manasviwalia2812/femmevoyage.git",
-    image: project4,
-    description:
-      "A platform for solo female travellers to connect with others and create and publish travel blog posts, with features like google maps, travel check-list, etc.",
-    technologies: ["HTML", "CSS", "Javascript"],
+      "A research-focused ML project with experiments, results, and analysis.",
+    technologies: ["Python", "ML", "Research"],
+    github: null,
+    blog: null,
+    paper: "/papers/ml-research.pdf",
   },
 ];
+
 
 export const CONTACT = {
   address: "New Delhi,India",

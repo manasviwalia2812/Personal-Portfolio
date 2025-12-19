@@ -22,31 +22,31 @@ const SectionNavigator = () => {
       image: sec1,
       title: "Projects 🚀",
       subtitle: "Things I’ve built and shipped 🛠️",
-      targetId: "projects",
+      route: "/projects",
     },
     {
       image: sec2,
       title: "Experience 💼",
       subtitle: "Where I’ve worked & learned 🧠",
-      targetId: "experience",
+      route: "/experience",
     },
     {
       image: sec3,
       title: "Tech Stack 💻",
       subtitle: "Tools & technologies I use ⚡",
-      targetId: "technologies",
+      route: "/tech",
     },
     {
       image: sec4,
       title: "Blogs ✍️",
       subtitle: "Thoughts, learnings & notes 📝",
-      targetId: "blogs",
+      route: "/blogs",
     },
     {
       image: sec5,
       title: "Contact 📬",
       subtitle: "Let’s connect & collaborate 👋",
-      targetId: "contact",
+      route: "/contact",
     },
   ];
 

@@ -39,7 +39,7 @@ const ProjectDetail = () => {
   return (
     <>
       {/* ================= PROJECT DETAIL ================= */}
-      <section className="pt-32 pb-32 max-w-7xl mx-auto px-6">
+      <section className="pt-16 pb-32 max-w-7xl mx-auto px-6">
 
         {/* GRID: 30 | 5 | 65 */}
         <div className="grid md:grid-cols-[30%_5%_65%] items-start">

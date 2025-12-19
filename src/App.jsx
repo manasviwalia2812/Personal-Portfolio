@@ -10,9 +10,9 @@ import ProjectDetail from "./pages/ProjectDetail";
 import Experience from "./pages/Experience";
 import Blogs from "./pages/Blogs";
 import MyProfilePage from "./pages/MyProfile";
-
-import Technologies from "./components/Technologies";
 import Contact from "./components/Contact";
+import TechnologyPage from "./pages/Technology";
+import ContactPage from "./pages/Contact";
 
 function App() {
   return (
@@ -27,18 +27,6 @@ function App() {
             <MainLayout>
               <section id="about">
                 <Home />
-              </section>
-
-              <section id="experience">
-                <Experience />
-              </section>
-
-              <section id="tech">
-                <Technologies />
-              </section>
-
-              <section id="contact">
-                <Contact />
               </section>
             </MainLayout>
           </>
@@ -100,6 +88,23 @@ function App() {
         element={
           <MainLayout>
             <ProjectDetail />
+          </MainLayout>
+        }
+      />
+      {/* TECH */}
+      <Route
+        path="/tech"
+        element={
+          <MainLayout>
+            <TechnologyPage />
+          </MainLayout>
+        }
+      />
+      <Route
+        path="/contact"
+        element={
+          <MainLayout>
+            <ContactPage />
           </MainLayout>
         }
       />

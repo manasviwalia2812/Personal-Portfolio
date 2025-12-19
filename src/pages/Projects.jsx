@@ -3,7 +3,7 @@ import ProjectCard from "../components/ProjectCard";
 
 const Projects = () => {
   return (
-    <div className="pt-32 pb-32 max-w-6xl mx-auto px-6">
+    <div className="pt-16 pb-32 max-w-6xl mx-auto px-6">
       <h1 className="text-4xl text-center mb-16 tracking-widest">
         PRO<span className="text-purple-400">JECTS</span>
       </h1>

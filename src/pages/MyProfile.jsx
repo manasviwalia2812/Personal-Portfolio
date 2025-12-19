@@ -4,7 +4,7 @@ import profileIcon from "../assets/icon.png";
 
 const MyProfilePage = () => {
   return (
-    <div className="pt-28 flex flex-col items-center">
+    <div className="pt-16 flex flex-col items-center">
 
       {/* Profile Icon Header */}
       <div className="mb-12 flex justify-center">

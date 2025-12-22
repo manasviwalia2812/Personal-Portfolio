@@ -71,7 +71,7 @@ const Hero = () => {
           className="mt-10 flex justify-center gap-6"
         >
           <a
-            href="#projects"
+            href="projects"
             className="rounded-full bg-purple-600 px-8 py-3 text-white text-lg transition hover:bg-purple-700"
           >
             View Projects

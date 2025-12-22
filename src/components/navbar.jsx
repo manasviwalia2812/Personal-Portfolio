@@ -18,14 +18,9 @@ const Navbar = () => {
   const location = useLocation();
 
   /* ---------- SMART NAV HANDLER ---------- */
-  const goTo = (id, route) => {
+  const goTo = (route) => {
     setOpen(false);
-
-    if (location.pathname === "/" && id) {
-      document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
-    } else {
-      navigate(route);
-    }
+    navigate(route);
   };
 
   /* ---------- UI Components ---------- */
@@ -104,15 +99,15 @@ const Navbar = () => {
               >
                 <DropdownItem
                   label="Projects"
-                  onClick={() => goTo("projects", "/projects")}
+                  onClick={() => goTo("/projects")}
                 />
                 <DropdownItem
                   label="Experience"
-                  onClick={() => goTo("experience", "/experience")}
+                  onClick={() => goTo("/experience")}
                 />
                 <DropdownItem
                   label="Tech Stack"
-                  onClick={() => goTo("tech", "/")}
+                  onClick={() => goTo("/tech")}
                 />
               </div>
             </div>
@@ -147,9 +142,9 @@ const Navbar = () => {
           <MobileItem label="Home" onClick={() => navigate("/")} />
           <MobileItem label="Blogs" onClick={() => navigate("/blogs")} />
           <MobileItem label="Resume" onClick={() => window.open("/resume.pdf")} />
-          <MobileItem label="Projects" onClick={() => goTo("projects", "/projects")} />
-          <MobileItem label="Experience" onClick={() => goTo("experience", "/experience")} />
-          <MobileItem label="Tech Stack" onClick={() => navigate("/")} />
+          <MobileItem label="Projects" onClick={() => goTo("/projects")} />
+          <MobileItem label="Experience" onClick={() => goTo("/experience")} />
+          <MobileItem label="Tech Stack" onClick={() => goTo("/tech")} />
 
           <div className="flex gap-6 pt-4 text-2xl text-white">
             <FaLinkedin />

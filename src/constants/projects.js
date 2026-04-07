@@ -8,6 +8,7 @@ import femmevoyage from "../assets/projects/femmevoyage.png";
 import cube from "../assets/projects/cube.gif";
 import amazon from "../assets/projects/amazon.png"; 
 import inventory from "../assets/projects/inventory.png"; 
+import ikaadmiku from "../assets/projects/ikaadmiku.png"
 
 export const PROJECTS = [
   //brain tumor segmentation project
@@ -40,6 +41,35 @@ export const PROJECTS = [
     github: "https://github.com/yourusername/brain-tumor-seg",
     blog: "https://www.linkedin.com",
     paper: "https://www.linkedin.com",
+  },
+    // IKAAD
+  {
+    slug: "Intelligent Knowledge Assistant for Academic Documents",
+    title: "IKAAD- Intelligent Knowledge Assistant for Academic Documents",
+    image: ikaadmiku,
+
+    overview:"IKAAD is an AI-powered study assistant that works over your materials (PDFs, PPTs, DOCX, and later videos). It provides concept-level, source-grounded help with summaries, level-based explanations, flashcards, quizzes, doubt clearing, learning plans, and sample papers without any hallucinations.",
+
+    sections: {
+      mission: "To build an AI assistant that makes learning easy, fun and without hallucinations—especially for a generation that is slowly losing their attention span.",
+      build: "",
+      deepDive: `IKAAD is evolving into a full study assistant with:
+- Summarize PDF / PPT / DOCX
+- Explanations by level (Beginner / Intermediate / Advanced) with diagrams from documents
+- Flashcards & quizzes to test knowledge
+- Doubt clearing with back-and-forth, grounded answers
+- Sample papers from past papers + current syllabus
+- Learning plans from a book (AI asks for chapters/syllabus, then creates a plan; confirms at each step)
+- Video support: lecture recordings and YouTube (transcribe, summarize, Q&A)
+- Voice chat for viva and interview prep`,
+      tech: "",
+      result: "",
+    },
+
+    technologies: ["Python", "React", "RAG", "LLM", "FastAPI","Supabase"],
+    github: "https://github.com/manasviwalia2812/IKAAD.git",
+    blog: null,
+    paper: null,
   },
 
     //bookloop project
@@ -266,5 +296,5 @@ export const PROJECTS = [
     blog: null,
     paper: null,
   },
-  // 🔁 Repeat same structure for remaining projects
+
 ];

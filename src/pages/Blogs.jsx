@@ -54,6 +54,19 @@ const Blogs = () => {
             <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
               Every day, over 500 million Indians use UPI without a second thought. But the 300 milliseconds between tapping "Pay" and seeing the green checkmark? That's an engineering marvel hiding in plain sight.
             </p>
+            <div className="mt-10 flex justify-center">
+              <a 
+                href="https://medium.com/@manasviwalia" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="px-8 py-3 bg-[#faf8f3] text-[#0d0d0d] rounded-full font-medium hover:bg-orange-500 hover:text-white transition-all duration-300 flex items-center gap-2 shadow-lg"
+              >
+                <span>Read more on Medium</span>
+                <svg className="w-5 h-5 px-0.5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42zM24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75c.66 0 1.19 2.58 1.19 5.75z"/>
+                </svg>
+              </a>
+            </div>
           </div>
         </div>
 
@@ -136,11 +149,23 @@ const Blogs = () => {
           </div>
         </article>
 
-        {/* More Coming Soon */}
-        <div className="mt-16 text-center">
-          <p className="text-gray-500 text-base">
-            More stories coming soon...
+        {/* More Stories CTA */}
+        <div className="mt-20 text-center border-t border-[#e5e0d5] pt-16">
+          <h3 className="text-2xl font-serif font-bold text-gray-900 mb-4">Want more insights?</h3>
+          <p className="text-gray-600 mb-8 max-w-md mx-auto">
+            I write regularly about tech, finance, and engineering on Medium. Join the conversation there for deeper dives.
           </p>
+          <a 
+            href="https://medium.com/@manasviwalia" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 px-8 py-3 bg-[#0d0d0d] text-white rounded-full font-medium hover:bg-orange-600 transition-all duration-300 shadow-xl"
+          >
+            Read more on Medium
+            <svg className="w-5 h-5 px-0.5" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42zM24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75c.66 0 1.19 2.58 1.19 5.75z"/>
+            </svg>
+          </a>
         </div>
       </div>
 

@@ -173,7 +173,7 @@ const ProjectDetail = () => {
                   <h3 className="text-xl font-semibold mb-2 text-purple-400">
                     🧠 The Mission
                   </h3>
-                  <p className="text-neutral-300 leading-relaxed">
+                  <p className="text-neutral-300 leading-relaxed whitespace-pre-line">
                     {sections.mission}
                   </p>
                 </motion.div>
@@ -184,7 +184,7 @@ const ProjectDetail = () => {
                   <h3 className="text-xl font-semibold mb-2 text-purple-400">
                     🛠️ The Build
                   </h3>
-                  <p className="text-neutral-300 leading-relaxed">
+                  <p className="text-neutral-300 leading-relaxed whitespace-pre-line">
                     {sections.build}
                   </p>
                 </motion.div>
@@ -195,7 +195,7 @@ const ProjectDetail = () => {
                   <h3 className="text-xl font-semibold mb-2 text-purple-400">
                     🔬 Deep Dive
                   </h3>
-                  <p className="text-neutral-300 leading-relaxed">
+                  <p className="text-neutral-300 leading-relaxed whitespace-pre-line">
                     {sections.deepDive}
                   </p>
                 </motion.div>
@@ -206,7 +206,7 @@ const ProjectDetail = () => {
                   <h3 className="text-xl font-semibold mb-2 text-purple-400">
                     ⚙️ The Tech
                   </h3>
-                  <p className="text-neutral-300 leading-relaxed">
+                  <p className="text-neutral-300 leading-relaxed whitespace-pre-line">
                     {sections.tech}
                   </p>
                 </motion.div>
@@ -217,7 +217,7 @@ const ProjectDetail = () => {
                   <h3 className="text-xl font-semibold mb-2 text-purple-400">
                     🧬 The Result
                   </h3>
-                  <p className="text-neutral-300 leading-relaxed">
+                  <p className="text-neutral-300 leading-relaxed whitespace-pre-line">
                     {sections.result}
                   </p>
                 </motion.div>

@@ -8,9 +8,53 @@ import femmevoyage from "../assets/projects/femmevoyage.png";
 import cube from "../assets/projects/cube.gif";
 import amazon from "../assets/projects/amazon.png"; 
 import inventory from "../assets/projects/inventory.png"; 
-import ikaadmiku from "../assets/projects/ikaadmiku.png"
+import ikaadmiku from "../assets/projects/ikaadmiku.png";
+import elfhame from "../assets/projects/elfhame.png";
+import plantdisease from "../assets/projects/plantdisease.png";
 
 export const PROJECTS = [
+  //plant disease detection 
+  {
+    slug: "plant-disease-detector",
+    title: "Plant Disease Detector using EfficientNet",
+    image: plantdisease,
+
+    overview:
+      "An AI-powered mobile application that detects plant diseases from leaf images, enabling farmers and gardeners to identify crop diseases instantly without an internet connection.",
+
+    sections: {
+      mission:
+        "Early disease detection is essential for improving crop health and reducing agricultural losses. This project brings deep learning directly to mobile devices, making disease diagnosis fast, accessible, and practical in the field.",
+
+      build:
+        "I trained an EfficientNet-based convolutional neural network on the PlantVillage dataset to classify multiple plant diseases. The trained model was optimized and converted into TensorFlow Lite for efficient on-device inference in an Android application.",
+
+      deepDive:
+        "The project involved image preprocessing, data augmentation, transfer learning, and model optimization to achieve high classification accuracy while maintaining a lightweight model suitable for smartphones. TensorFlow Lite enables offline predictions with low latency and minimal resource usage.",
+
+      tech:
+        "Beyond model development, I integrated the TensorFlow Lite model into an Android application using Kotlin, allowing users to capture or upload leaf images and receive real-time disease predictions without relying on cloud services.",
+
+      result:
+        "The final application provides instant offline plant disease detection, demonstrating how edge AI can deliver practical, real-world agricultural solutions with fast inference and high portability. 🌱",
+    },
+
+    technologies: [
+      "Python",
+      "TensorFlow",
+      "TensorFlow Lite",
+      "EfficientNet",
+      "Kotlin",
+      "Android Studio",
+      "OpenCV",
+      "PlantVillage Dataset",
+    ],
+
+    github: null,
+    blog: "https://medium.com/codetodeploy/how-i-shrunk-a-plant-disease-classifier-from-16mb-to-5mb-with-less-than-1-accuracy-loss-c069fe9effe0",
+    paper: null,
+  },
+
   //brain tumor segmentation project
   {
     slug: "brain-tumor-segmentation",
@@ -94,6 +138,45 @@ export const PROJECTS = [
     github: "https://github.com/yourusername/rubiks-solver",
     blog: null,
     paper: "https://drive.google.com/file/d/1VeiE2QScDhsW-O8S3_Yxm-T_vdy-p6OF/view?usp=drive_link",
+  },
+  //elfhame project
+  {
+    slug: "elfhame",
+    title: "Elfhame – An Immersive Fantasy Web Experience",
+    image: elfhame,
+
+    overview:
+      "An interactive frontend experience inspired by Holly Black's The Folk of the Air series, designed to immerse users in the magical world of Elfhame through modern web technologies.",
+
+    sections: {
+      mission:
+        "Most web projects focus on dashboards, CRUD operations, or business applications. I wanted to build something different—a digital world that captures the atmosphere, mystery, and magic of one of my favorite fantasy series while challenging my frontend development skills.",
+
+      build:
+        "I designed and developed a fully interactive single-page experience using React, combining smooth animations, cinematic transitions, and responsive layouts to transform a story into an immersive web journey rather than a traditional website.",
+
+      deepDive:
+        "The project focuses heavily on user experience, experimenting with layered visual effects, animated components, custom interactions, and storytelling through UI. Every section was crafted to make visitors feel like they're exploring the world of Elfhame instead of simply scrolling through a webpage.",
+
+      tech:
+        "Building the experience required balancing creativity with performance, optimizing animations, responsive design, and component architecture while ensuring the application remained smooth across different screen sizes and devices.",
+
+      result:
+        "Elfhame demonstrates how modern frontend engineering can be used for digital storytelling, blending design, animation, and interactivity into an engaging fantasy-inspired experience that's still evolving with new features and adventures. ✨",
+    },
+
+    technologies: [
+      "React",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "Framer Motion",
+      "Vite",
+      "Responsive Design",
+      "UI/UX Design",
+    ],
+
+    github: "https://elfhame.vercel.app/",
   },
 
     //ai leetcode assistant chrome extension project

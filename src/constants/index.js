@@ -8,6 +8,31 @@ export const HERO_CONTENT = `Hello! I am a motivated student with a track record
 
 export const EXPERIENCES = [
   {
+    year: "July 2026 - Present 🗓️",
+    location: "Jaipur, India (Remote) 📍",
+    role: "Frontend Developer Intern 👨‍💻",
+    company: "AlgoKart 💹",
+    description: `Contributed to the development of a modern fintech web application 💹 using React.js, building responsive and interactive user interfaces 🎨. Integrated REST APIs 🔗, tested endpoints with Postman 📬, and collaborated with backend developers to ensure seamless data flow. Debugged and optimized frontend components 🐞⚡, improving application reliability and user experience while strengthening problem-solving, teamwork 🤝, and real-world software development skills.`,
+    technologies: [
+      "React.js",
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "REST APIs",
+      "Postman",
+      "Git",
+      "GitHub"
+    ],
+  },
+  {
+    year: "Jun 2026 -  July 2026 🗓️",
+    location: "Gurgaon, India 📍",
+    role: "Technical Intern 👨‍💻",
+    company: "Seesec Infotech 🤖",
+    description: `Worked on cloud ☁️, AWS, and AI-powered projects 🤖, contributing to both development and deployment workflows. Assisted in building and integrating intelligent web applications 🌐, explored AWS cloud services ⚙️, and implemented AI-driven features to solve real-world problems. Collaborated with the development team to debug issues 🐞, optimize application performance 🚀, and gain hands-on experience with modern cloud technologies, strengthening problem-solving, teamwork 🤝, and adaptability.`,
+    technologies: ["AWS", "EC2", "S3", "IAM", "React.js", "Node.js","Generative AI"],
+  },
+  {
     year: "Jun 2025 - Aug 2025 🗓️",
     location: "Gurgaon, India 📍",
     role: "Web Development Intern 👨‍💻",
